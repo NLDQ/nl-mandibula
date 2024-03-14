@@ -1,0 +1,337 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>"Mandíbula", de Mónica Ojeda</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+    <!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+
+    <!-- CSS Reset -->
+    <style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+      /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html,  body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,  td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+</style>
+
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+        h1{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:2em;
+			font-style:italic;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h2{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h3{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h4{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.1em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h5{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:14px;
+			font-style:normal;
+			font-weight:normal;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		p{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:165%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #555555 !important;
+            border-color: #555555 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 700px) {
+
+            .email-container {
+                width: 100% !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid,
+            .fluid-centered {
+                max-width: 700 !important;
+                height: auto !important;
+                margin-left: auto!important;
+                margin-right: auto!important;
+            }
+            /* And center justify these ones. */
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 700 !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+        
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+                
+        }
+
+    </style>
+    </head>
+    <body bgcolor="#FFFFFF" width="100%" style="margin: 0; padding:0" yahoo="yahoo">
+    <table bgcolor="FFFFFF" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td>
+            
+            <!-- Visually Hidden Preheader Text : BEGIN -->
+            <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">"Mandíbula", de Mónica Ojeda</div>
+            <!-- Visually Hidden Preheader Text : END --> 
+            
+            <!-- Cabeçalho : COMEÇO, alterar imagem -->
+            <table align="center" width="100%" class="email-container">
+            <tr>
+                <td align="center" style="font-size: 0.6em; font-weight: normal; line-height: 1em; color: #000000; font-family: sans-serif; padding:10px 0px 0px 0px">Se não conseguir visualizar corretamente este e-mail <a href="https://nldq.github.io/nl-mandibula/">clique aqui</a></td>
+			</tr>
+			<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123445&authkey=%21AMxe9px-h8g3JY0&width=700&height=50" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+			<tr>
+				<td style="padding: 0em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21129146&authkey=%21ANeGgBzXrft9UpA&width=700&height=400" alt="&quot;Mandíbula&quot;, de Mónica Ojeda" border="0" width="700" align="center" style="width: 100%; max-width: 700px; height: auto;"></td>
+			</tr>
+          </table>
+            <!-- Cabeçalho : FIM --> 
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="700" class="email-container">
+            
+<!-- Livro : COMEÇO-->
+            
+				<tr>
+				<td dir="ltr" align="center" valign="top" width="100%" style="padding: 0px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90.5%">
+					<table align="center" width="100%">
+						<tbody>
+							<tr>
+							<td valign="top" align="center" style="padding:0px 60px 30px 60px;">
+							<h1 style="color:#d61e26">Mandíbula</h1>
+							<h2>Mónica Ojeda</h2>
+							<h5>Tradução de Rui Elias</h5>
+							<h4>Nas livrarias a 19 de Março</h4>
+								<br>
+								<h4>O primeiro livro da equatoriana Mónica Ojeda publicado em Portugal.</h4>
+								<p style="text-align:left !important"><strong>Fernanda</strong>, uma aluna insolente de um colégio elitista da Opus Dei, acorda certo dia com as mãos e os pés atados numa cabana escura no meio da floresta – e este é apenas o começo de uma jornada que tem tudo para ser aterradora.<br>
+								Longe de se tratar de alguém desconhecido, a sua sequestradora é Miss Clara, a professora de língua e literatura perseguida por um passado violento, que Fernanda e as colegas atormentam há meses com vexames e perguntas inconvenientes. Porém, os motivos do rapto revelar-se-ão muito mais complexos do que a mera vingança pelos traumas sofridos na sala de aula e, de certa forma, não deixam de estar ligados ao desejo, ao ciúme e mesmo ao amor.<br><br>
+								<strong>Num romance</strong> imaginativo e extremamente hipnótico, a equatoriana Mónica Ojeda – uma das vozes mais aclamadas da literatura da América Latina – cria em <em>Mandíbula</em> um mundo feminino feroz e implacável, partindo das relações nem sempre claras entre colegas de escola, professoras e alunas, mães e filhas, irmãs e melhores amigas.<br>
+								Viciante e imperdível.
+								</p>
+							<br>
+							<p style="text-align:center"><strong>«Herdeiro de Stephen King e, sobretudo, de Lovecraft, Mandíbula reflete o horror e o seu contrário e é capaz de apanhar na mesma rede personagens e leitores.»</strong><br>
+							<em>La Stampa</em></p>
+							<p style="text-align:center"><strong>«Um dos mais corajosos romances do ano.»</strong><br>
+							<em>El País</em></p>
+							<p style="text-align:center"><strong>«Quem escreve assim não pode ter só trinta anos.»</strong><br>
+							<em>El Telégrafo</em></p>
+							<p style="text-align:center"><strong>«Com ecos de Lovecraft e Shirley Jackson, mas uma visão muito própria, este é um romance delicioso na forma como a um tempo seduz e perturba o leitor. Um horror que encanta.»</strong><br>
+							<em>Publishers Weekly</em></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			<hr width="91%" color="d61e26">
+			<br><br>
+<!-- Sobre o autor -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Mónica Ojeda." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21129145&authkey=%21ADedOUiPV2Ajeho&width=280&height=420" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p>Mónica Ojeda nasceu em Guayaquil, no Equador, em 1988.<br>
+							Em 2017, esteve na lista Bogotá 39, do Hay Festival, de melhores escritores de ficção latiwes Baixos.<br>
+							Em 2021, a revista Granta indicou-a como uma das melhores autoras hispânicas com menos de 35 anos.<br>
+							Publicou livros de contos, poemas e três romances:<br>
+							<em>La Desfiguración Silva</em> (Prémio ALBA Narrativa, 2014)<br>
+							<em>Nefando</em> (2016)<br>
+							<em>Mandíbula</em> (2018)
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="d61e26">
+<br>
+<!-- Capa e especificações -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="&quot;Mandíbula&quot;, de Mónica Ojeda." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21129144&authkey=%21AKeYkE83IqjP-8I&width=1042&height=1564" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p style="line-height: 250%">
+							Literatura Traduzida<br>
+							304 páginas<br>
+							18,80 Euros<br>
+							ISBN: 978-972-20-8084-2<br>
+							1.ª Edição: Março 2024<br>
+							Dom Quixote
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+					<table align="center" width="100%">
+	<tbody>
+		<tr>
+			<td valign="top" align="center" style="padding: 10px">
+				<p style="text-align: center; line-height: 150%">Para mais informações:<br>
+				Rui Breda<br>
+				938 527 410<br></p>
+			</td>
+		</tr>
+		<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123446&authkey=%21AF8CaGSbZcojQpU&width=700&height=125" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+	</tbody>
+					</table>
+                  </table></td>
+              </tr>
+          </table>
+            <!-- Email Body : END --> 
+            
+            <!-- Email Footer : BEGIN -->
+            
+            <!-- Email Footer : END -->
+            
+			</td></tr></table>
+</body>
+</html>
